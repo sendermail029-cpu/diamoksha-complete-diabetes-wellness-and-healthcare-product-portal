@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3f7f4;
+  --foreground: #123228;
+  --card: #ffffff;
+  --brand: #1a8c54;
+  --brand-dark: #10653d;
+  --muted: #4f6a5d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0d1914;
+    --foreground: #e8f2ec;
+    --card: #122219;
+    --brand: #36be7b;
+    --brand-dark: #2ea468;
+    --muted: #b6c8bd;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans Telugu", Arial, Helvetica, sans-serif;
+}
