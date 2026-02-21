@@ -357,11 +357,13 @@ export default function Home() {
       {/* Clickable Report Image */}
       <div className="mt-3">
         <p className="text-xs font-bold text-emerald-700 mb-1">View Medical Report ↓</p>
-        <a href="/report.jpeg"target="_blank" rel="noopener noreferrer">
-          <img 
+        <a href="/report.jpeg" target="_blank" rel="noopener noreferrer">
+          <Image
             src="/report.jpeg"
-            alt="Medical Report" 
-            className="w-32 h-20 object-cover rounded-lg border-2 border-white shadow-md hover:scale-105 transition-transform cursor-pointer"
+            alt="Medical Report"
+            width={128}
+            height={80}
+            className="h-20 w-32 rounded-lg border-2 border-white object-cover shadow-md transition-transform hover:scale-105"
           />
         </a>
       </div>
