@@ -328,12 +328,12 @@ export default function Home() {
             కాల్‌లో నిపుణులైన వైద్యుల నుండి
             <span className="block text-[#0d6b3a]">ఉచిత సలహా పొందండి</span>
           </p>
-          <button
-            type="button"
+          <a
+            href="tel:+917842121315"
             className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-[#146c39] px-8 py-3 text-xl font-bold text-white shadow-[0_8px_20px_rgba(20,108,57,0.35)] transition hover:bg-[#115f33] sm:px-10 sm:text-2xl"
           >
             📞 ఇప్పుడే కాల్ చేయండి
-          </button>
+          </a>
           <p className="mx-auto mt-4 max-w-md text-base font-semibold leading-7 text-[#2f5f44] sm:text-xl">
             ✅ సమయాలతో బాధపడుతున్న వారికి సులభ పరిష్కారం అందించే సహాయం
           </p>
