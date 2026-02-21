@@ -296,7 +296,7 @@ export default function Home() {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   type="tel"
-                  placeholder="XXXXXXXXXX"
+                  placeholder="9491525353"
                   className="ml-3 w-full text-lg text-zinc-700 outline-none sm:text-2xl"
                 />
               </div>
