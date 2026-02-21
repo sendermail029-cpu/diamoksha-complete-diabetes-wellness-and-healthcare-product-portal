@@ -296,7 +296,7 @@ export default function Home() {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   type="tel"
-                  placeholder="9491525353"
+                  placeholder="7842121315"
                   className="ml-3 w-full text-lg text-zinc-700 outline-none sm:text-2xl"
                 />
               </div>
@@ -453,9 +453,14 @@ export default function Home() {
           <p className="text-left text-[15px] font-extrabold leading-tight text-red-600 sm:text-lg">
             🔥 ఇప్పుడే మిగిలిన ఆఫర్: {minutes}:{seconds}
           </p>
-          <button type="button" className="rounded-full bg-[#25d366] px-4 py-2.5 text-sm font-extrabold text-white sm:w-auto sm:px-5 sm:py-3 sm:text-lg">
+          <a
+            href="https://wa.me/917842121315?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%20DIA%20MOKSHA%20%E0%B0%86%E0%B0%B0%E0%B1%8D%E0%B0%A1%E0%B0%B0%E0%B1%8D%20%E0%B0%9A%E0%B1%87%E0%B0%AF%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B0%BF%20%E0%B0%89%E0%B0%82%E0%B0%A6%E0%B0%BF."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-[#25d366] px-4 py-2.5 text-center text-sm font-extrabold text-white sm:w-auto sm:px-5 sm:py-3 sm:text-lg"
+          >
             WhatsApp ద్వారా ఆర్డర్
-          </button>
+          </a>
         </div>
       </section>
     </main>
